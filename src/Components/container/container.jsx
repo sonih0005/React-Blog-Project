@@ -1,6 +1,6 @@
 import React from 'react'
 
-const container = ({children}) => {
+const Container = ({children}) => {
   return (
     <div className='w-full max-w-7xl mx-auto px-4'>
         {children}
@@ -8,4 +8,4 @@ const container = ({children}) => {
   )
 }
 
-export default container
+export default Container
